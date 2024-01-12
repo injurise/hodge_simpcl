@@ -1,0 +1,30 @@
+{
+  "augmentations": {
+    "SpectralEdgeDrop": {
+      "initialisation": "constant",
+      "iteration": 75,
+      "lr_spec": 0.02,
+      "max_drop_ratio": 0.4,
+      "max_lr_change": "automatic"
+    }
+  },
+  "batch_size": 100,
+  "dataset": "trajectories",
+  "epochs": 200,
+  "loss_params": {
+    "tau": 0.2
+  },
+  "loss_type": "InfoNCE",
+  "lr": 0.001,
+  "model_params": {
+    "hidden_dim": 64,
+    "hidden_layers": 3,
+    "n_output_features": 64,
+    "projection_head_dim": 126
+  },
+  "model_type": "CSCN",
+  "run_n": 1,
+  "seed": 811346195,
+  "spectral_weighting": true,
+  "weight_decay": 0.0001
+}

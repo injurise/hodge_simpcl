@@ -1,0 +1,78 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "/Users/alexandermollers/Documents/GitHub/hodge_simpcl/src/experiments/edge_flow_class",
+    "dependencies": [
+      "numpy==1.25.0",
+      "sacred==0.8.4",
+      "scikit-learn==1.2.2",
+      "torch==2.0.1",
+      "tqdm==4.64.1"
+    ],
+    "mainfile": "efc_sscl.py",
+    "name": "Edge Flow Classification",
+    "repositories": [],
+    "sources": [
+      [
+        "__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "efc_sscl.py",
+        "_sources/efc_sscl_1cde202acdc9819f90d4d5975063e194.py"
+      ],
+      [
+        "efc_utils.py",
+        "_sources/efc_utils_c0dd390c7b68adcd40193608aa5c9185.py"
+      ]
+    ]
+  },
+  "heartbeat": "2024-01-12T04:44:16.035366",
+  "host": {
+    "ENV": {},
+    "cpu": "Apple M1",
+    "hostname": "Alexanders-MacBook-Pro.local",
+    "os": [
+      "Darwin",
+      "macOS-13.0-arm64-arm-64bit"
+    ],
+    "python_version": "3.9.16"
+  },
+  "meta": {
+    "command": "main",
+    "config_updates": {},
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2024-01-12T03:10:25.308023",
+  "status": "COMPLETED",
+  "stop_time": "2024-01-12T04:44:16.029840"
+}

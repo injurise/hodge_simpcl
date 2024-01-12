@@ -2,7 +2,6 @@
 data/*.obj
 data/*/*.obj
 notebooks/data
-logs/
 .idea/
 notes/
 **sn_logs/

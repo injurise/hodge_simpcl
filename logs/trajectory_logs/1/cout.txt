@@ -1,0 +1,403 @@
+/Users/alexandermollers/Documents/GitHub/hodge_simpcl/src/utils.py:100: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1682343673238/work/aten/src/ATen/SparseCsrTensorImpl.cpp:56.)
+  L1_upper = B2.mm(torch.transpose(B2, 0, 1))
+(T):   0%|          | 0/200 [00:00<?, ?it/s]26.26s/it, loss=18.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.85; Test Accuracy:0.89
+(T):   1%|          | 2/200 [00:56<1:33:49, 28.43s/it, loss=17.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.91; Val Accuracy:0.91; Test Accuracy:0.93
+(T):   2%|▏         | 3/200 [01:24<1:32:41, 28.23s/it, loss=16.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.92; Test Accuracy:0.9
+(T):   2%|▏         | 4/200 [01:52<1:32:41, 28.38s/it, loss=16.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.9; Val Accuracy:0.93; Test Accuracy:0.88
+(T):   2%|▎         | 5/200 [02:21<1:32:35, 28.49s/it, loss=16.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.94; Test Accuracy:0.9
+(T):   3%|▎         | 6/200 [02:49<1:31:54, 28.43s/it, loss=16.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.95; Test Accuracy:0.89
+(T):   4%|▎         | 7/200 [03:18<1:31:22, 28.41s/it, loss=15.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.88; Val Accuracy:0.91; Test Accuracy:0.92
+(T):   4%|▍         | 8/200 [03:46<1:30:38, 28.32s/it, loss=15]  Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.91; Test Accuracy:0.9
+(T):   4%|▍         | 9/200 [04:14<1:30:04, 28.30s/it, loss=14.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.9; Test Accuracy:0.93
+(T):   5%|▌         | 10/200 [04:42<1:29:30, 28.27s/it, loss=14.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.935; Val Accuracy:0.93; Test Accuracy:0.9
+(T):   6%|▌         | 11/200 [05:10<1:28:48, 28.20s/it, loss=14.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.89; Test Accuracy:0.93
+(T):   6%|▌         | 12/200 [05:38<1:28:06, 28.12s/it, loss=14]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.92; Test Accuracy:0.92
+(T):   6%|▋         | 13/200 [06:06<1:27:30, 28.08s/it, loss=13.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.88; Test Accuracy:0.91
+(T):   7%|▋         | 14/200 [06:34<1:26:53, 28.03s/it, loss=13.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.93; Test Accuracy:0.99
+(T):   8%|▊         | 15/200 [07:02<1:26:07, 27.93s/it, loss=13.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.91; Test Accuracy:0.95
+(T):   8%|▊         | 16/200 [07:31<1:26:37, 28.25s/it, loss=13.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.925; Val Accuracy:0.9; Test Accuracy:0.93
+(T):   8%|▊         | 17/200 [08:01<1:28:05, 28.88s/it, loss=13.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.895; Val Accuracy:0.92; Test Accuracy:0.95
+(T):   9%|▉         | 18/200 [08:32<1:29:16, 29.43s/it, loss=12.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.935; Val Accuracy:0.93; Test Accuracy:0.95
+(T):  10%|▉         | 19/200 [09:03<1:30:27, 29.98s/it, loss=13.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.935; Val Accuracy:0.91; Test Accuracy:0.95
+(T):  10%|█         | 20/200 [09:33<1:30:02, 30.01s/it, loss=13.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.895; Val Accuracy:0.94; Test Accuracy:0.94
+(T):  10%|█         | 21/200 [10:03<1:29:03, 29.85s/it, loss=13.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  11%|█         | 22/200 [10:33<1:28:33, 29.85s/it, loss=13.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.925; Val Accuracy:0.93; Test Accuracy:0.95
+(T):  12%|█▏        | 23/200 [11:01<1:27:09, 29.55s/it, loss=13.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.915; Val Accuracy:0.92; Test Accuracy:0.97
+(T):  12%|█▏        | 24/200 [11:30<1:25:31, 29.16s/it, loss=12.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.94; Test Accuracy:0.95
+(T):  12%|█▎        | 25/200 [11:58<1:24:22, 28.93s/it, loss=12.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.93; Test Accuracy:0.95
+(T):  13%|█▎        | 26/200 [12:26<1:23:20, 28.74s/it, loss=12.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.95; Test Accuracy:0.91
+(T):  14%|█▎        | 27/200 [12:54<1:22:05, 28.47s/it, loss=12.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.92; Val Accuracy:0.93; Test Accuracy:0.97
+(T):  14%|█▍        | 28/200 [13:22<1:21:18, 28.36s/it, loss=12.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.87; Test Accuracy:0.94
+(T):  14%|█▍        | 29/200 [13:50<1:20:28, 28.24s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.92; Test Accuracy:0.93
+(T):  15%|█▌        | 30/200 [14:18<1:19:50, 28.18s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.92; Test Accuracy:0.93
+(T):  16%|█▌        | 31/200 [14:47<1:19:31, 28.23s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.94; Test Accuracy:0.96
+(T):  16%|█▌        | 32/200 [15:14<1:18:21, 27.98s/it, loss=12.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.94; Test Accuracy:0.93
+(T):  16%|█▋        | 33/200 [15:42<1:17:56, 28.00s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.92; Test Accuracy:0.94
+(T):  17%|█▋        | 34/200 [16:10<1:17:42, 28.09s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.97; Test Accuracy:0.94
+(T):  18%|█▊        | 35/200 [16:38<1:16:53, 27.96s/it, loss=12.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.92; Test Accuracy:0.93
+(T):  18%|█▊        | 36/200 [17:08<1:18:06, 28.58s/it, loss=11.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.94; Test Accuracy:0.95
+(T):  18%|█▊        | 37/200 [17:36<1:16:44, 28.25s/it, loss=11.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  19%|█▉        | 38/200 [18:03<1:15:27, 27.95s/it, loss=11.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.94; Test Accuracy:0.94
+(T):  20%|█▉        | 39/200 [18:30<1:14:44, 27.85s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.935; Val Accuracy:0.93; Test Accuracy:0.94
+(T):  20%|██        | 40/200 [18:58<1:13:41, 27.63s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.91; Test Accuracy:0.95
+(T):  20%|██        | 41/200 [19:26<1:13:37, 27.78s/it, loss=11.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.92; Test Accuracy:0.95
+(T):  21%|██        | 42/200 [19:53<1:13:01, 27.73s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.91; Test Accuracy:0.95
+(T):  22%|██▏       | 43/200 [20:21<1:12:54, 27.86s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.94; Test Accuracy:0.94
+(T):  22%|██▏       | 44/200 [20:49<1:12:19, 27.82s/it, loss=11.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.96; Test Accuracy:0.93
+(T):  22%|██▎       | 45/200 [21:17<1:11:30, 27.68s/it, loss=11.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.935; Val Accuracy:0.94; Test Accuracy:0.94
+(T):  23%|██▎       | 46/200 [21:44<1:11:17, 27.77s/it, loss=11.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  24%|██▎       | 47/200 [22:13<1:11:21, 27.98s/it, loss=11.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.91; Test Accuracy:0.93
+(T):  24%|██▍       | 48/200 [22:41<1:11:15, 28.13s/it, loss=11.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.91; Val Accuracy:0.93; Test Accuracy:0.93
+(T):  24%|██▍       | 49/200 [23:09<1:10:23, 27.97s/it, loss=11.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  25%|██▌       | 50/200 [23:38<1:10:39, 28.26s/it, loss=12]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.93; Test Accuracy:0.97
+(T):  26%|██▌       | 51/200 [24:07<1:10:23, 28.34s/it, loss=12.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  26%|██▌       | 52/200 [24:35<1:10:04, 28.41s/it, loss=12.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.94; Test Accuracy:0.94
+(T):  26%|██▋       | 53/200 [25:03<1:09:08, 28.22s/it, loss=12.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.93; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  27%|██▋       | 54/200 [25:31<1:08:47, 28.27s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  28%|██▊       | 55/200 [25:59<1:08:02, 28.16s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  28%|██▊       | 56/200 [26:27<1:07:20, 28.06s/it, loss=12.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  28%|██▊       | 57/200 [26:55<1:07:01, 28.12s/it, loss=12.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.94; Test Accuracy:0.95
+(T):  29%|██▉       | 58/200 [27:23<1:06:18, 28.02s/it, loss=11.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  30%|██▉       | 59/200 [27:51<1:05:44, 27.98s/it, loss=11.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  30%|███       | 60/200 [28:19<1:05:31, 28.08s/it, loss=11.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  30%|███       | 61/200 [28:47<1:04:55, 28.02s/it, loss=11.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.98
+(T):  31%|███       | 62/200 [29:15<1:04:16, 27.94s/it, loss=11.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  32%|███▏      | 63/200 [29:43<1:03:42, 27.90s/it, loss=11.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  32%|███▏      | 64/200 [30:10<1:02:58, 27.78s/it, loss=11.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  32%|███▎      | 65/200 [30:38<1:02:31, 27.79s/it, loss=11.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.95; Test Accuracy:0.98
+(T):  33%|███▎      | 66/200 [31:06<1:01:56, 27.74s/it, loss=11.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  34%|███▎      | 67/200 [31:34<1:01:47, 27.88s/it, loss=11.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  34%|███▍      | 68/200 [32:03<1:01:53, 28.13s/it, loss=11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  34%|███▍      | 69/200 [32:30<1:01:12, 28.04s/it, loss=11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  35%|███▌      | 70/200 [32:59<1:00:53, 28.10s/it, loss=10.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.98; Test Accuracy:0.96
+(T):  36%|███▌      | 71/200 [33:27<1:00:38, 28.20s/it, loss=11.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  36%|███▌      | 72/200 [33:55<59:50, 28.05s/it, loss=11.1]  Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  36%|███▋      | 73/200 [34:23<59:27, 28.09s/it, loss=11.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.95; Test Accuracy:0.91
+(T):  37%|███▋      | 74/200 [34:54<1:00:39, 28.89s/it, loss=11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  38%|███▊      | 75/200 [35:21<59:17, 28.46s/it, loss=11]  Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.94; Test Accuracy:0.97
+(T):  38%|███▊      | 76/200 [35:48<58:04, 28.10s/it, loss=10.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  38%|███▊      | 77/200 [36:15<57:00, 27.81s/it, loss=10.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  39%|███▉      | 78/200 [36:43<56:15, 27.67s/it, loss=11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  40%|███▉      | 79/200 [37:12<56:49, 28.18s/it, loss=10.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.95; Test Accuracy:0.94
+(T):  40%|████      | 80/200 [37:42<57:19, 28.66s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.93; Test Accuracy:0.93
+(T):  40%|████      | 81/200 [38:12<57:50, 29.16s/it, loss=11.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.92; Test Accuracy:0.95
+(T):  41%|████      | 82/200 [38:40<56:20, 28.64s/it, loss=10.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.94; Test Accuracy:0.95
+(T):  42%|████▏     | 83/200 [39:09<56:22, 28.91s/it, loss=10.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.95; Test Accuracy:0.92
+(T):  42%|████▏     | 84/200 [39:38<55:56, 28.93s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.94; Test Accuracy:0.93
+(T):  42%|████▎     | 85/200 [40:06<54:39, 28.52s/it, loss=11.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  43%|████▎     | 86/200 [40:33<53:24, 28.11s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  44%|████▎     | 87/200 [41:00<52:24, 27.83s/it, loss=10.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  44%|████▍     | 88/200 [41:27<51:40, 27.68s/it, loss=10.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.94; Test Accuracy:0.97
+(T):  44%|████▍     | 89/200 [41:55<50:59, 27.57s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.95; Test Accuracy:0.93
+(T):  45%|████▌     | 90/200 [42:22<50:21, 27.46s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.93; Test Accuracy:0.91
+(T):  46%|████▌     | 91/200 [42:50<49:59, 27.52s/it, loss=11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.98; Test Accuracy:0.98
+(T):  46%|████▌     | 92/200 [43:18<50:11, 27.88s/it, loss=10.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.94
+(T):  46%|████▋     | 93/200 [43:49<50:57, 28.57s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.98; Test Accuracy:0.97
+(T):  47%|████▋     | 94/200 [44:18<50:40, 28.68s/it, loss=10.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.96; Test Accuracy:0.93
+(T):  48%|████▊     | 95/200 [44:47<50:29, 28.85s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  48%|████▊     | 96/200 [45:17<50:47, 29.30s/it, loss=10.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.94
+(T):  48%|████▊     | 97/200 [45:46<50:14, 29.27s/it, loss=10.4]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.94; Test Accuracy:0.95
+(T):  49%|████▉     | 98/200 [46:14<48:50, 28.73s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  50%|████▉     | 99/200 [46:42<47:57, 28.49s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  50%|█████     | 100/200 [47:09<46:57, 28.17s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.98; Test Accuracy:0.97
+(T):  50%|█████     | 101/200 [47:38<47:03, 28.52s/it, loss=10.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.95; Test Accuracy:0.93
+(T):  51%|█████     | 102/200 [48:07<46:21, 28.38s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  52%|█████▏    | 103/200 [48:35<46:01, 28.47s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  52%|█████▏    | 104/200 [49:04<45:38, 28.52s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  52%|█████▎    | 105/200 [49:32<45:07, 28.50s/it, loss=10.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.93; Test Accuracy:0.95
+(T):  53%|█████▎    | 106/200 [50:00<44:20, 28.31s/it, loss=9.92]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  54%|█████▎    | 107/200 [50:28<43:31, 28.08s/it, loss=10.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  54%|█████▍    | 108/200 [50:57<43:50, 28.59s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.94; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  55%|█████▍    | 109/200 [51:29<44:29, 29.34s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.99; Test Accuracy:0.97
+(T):  55%|█████▌    | 110/200 [51:56<43:19, 28.88s/it, loss=10.5]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  56%|█████▌    | 111/200 [52:25<42:38, 28.74s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.98; Test Accuracy:0.98
+(T):  56%|█████▌    | 112/200 [52:53<41:50, 28.53s/it, loss=9.85]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  56%|█████▋    | 113/200 [53:21<41:05, 28.34s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  57%|█████▋    | 114/200 [53:48<40:07, 28.00s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.97; Test Accuracy:0.96
+(T):  57%|█████▊    | 115/200 [54:16<39:46, 28.08s/it, loss=10.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  58%|█████▊    | 116/200 [54:44<39:06, 27.93s/it, loss=10.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  58%|█████▊    | 117/200 [55:12<38:37, 27.93s/it, loss=10.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  59%|█████▉    | 118/200 [55:40<38:18, 28.04s/it, loss=10.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.93; Test Accuracy:0.96
+(T):  60%|█████▉    | 119/200 [56:08<37:40, 27.91s/it, loss=9.91]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.93; Test Accuracy:0.96
+(T):  60%|██████    | 120/200 [56:35<37:07, 27.84s/it, loss=10]  Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.93; Test Accuracy:0.96
+(T):  60%|██████    | 121/200 [57:04<37:00, 28.11s/it, loss=10.6]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  61%|██████    | 122/200 [57:31<36:16, 27.90s/it, loss=10]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  62%|██████▏   | 123/200 [58:00<35:54, 27.99s/it, loss=10.3]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  62%|██████▏   | 124/200 [58:27<35:23, 27.94s/it, loss=9.97]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.96; Test Accuracy:0.98
+(T):  62%|██████▎   | 125/200 [58:56<35:02, 28.04s/it, loss=10.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.96; Test Accuracy:0.98
+(T):  63%|██████▎   | 126/200 [59:24<34:29, 27.97s/it, loss=9.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  64%|██████▎   | 127/200 [59:51<33:59, 27.93s/it, loss=9.83]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  64%|██████▍   | 128/200 [1:00:19<33:22, 27.81s/it, loss=9.58]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  64%|██████▍   | 129/200 [1:00:47<32:56, 27.84s/it, loss=10.2]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.96; Test Accuracy:0.95
+(T):  65%|██████▌   | 130/200 [1:01:15<32:45, 28.08s/it, loss=9.96]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.95; Test Accuracy:0.95
+(T):  66%|██████▌   | 131/200 [1:01:43<32:13, 28.02s/it, loss=9.65]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  66%|██████▌   | 132/200 [1:02:11<31:45, 28.03s/it, loss=9.9]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  66%|██████▋   | 133/200 [1:02:39<31:17, 28.02s/it, loss=9.7]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.93; Test Accuracy:0.97
+(T):  67%|██████▋   | 134/200 [1:03:07<30:46, 27.98s/it, loss=9.88]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.94; Test Accuracy:0.93
+(T):  68%|██████▊   | 135/200 [1:03:35<30:19, 27.98s/it, loss=10.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.93; Test Accuracy:0.94
+(T):  68%|██████▊   | 136/200 [1:04:03<29:43, 27.87s/it, loss=9.65]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.94; Test Accuracy:0.97
+(T):  68%|██████▊   | 137/200 [1:04:31<29:13, 27.84s/it, loss=9.65]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  69%|██████▉   | 138/200 [1:04:58<28:38, 27.72s/it, loss=9.69]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.94; Test Accuracy:0.96
+(T):  70%|██████▉   | 139/200 [1:05:26<28:12, 27.75s/it, loss=9.51]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.94; Test Accuracy:0.96
+(T):  70%|███████   | 140/200 [1:05:54<27:44, 27.74s/it, loss=9.44]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.94; Test Accuracy:0.96
+(T):  70%|███████   | 141/200 [1:06:22<27:28, 27.94s/it, loss=9.77]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  71%|███████   | 142/200 [1:06:50<26:54, 27.84s/it, loss=9.41]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  72%|███████▏  | 143/200 [1:07:18<26:38, 28.05s/it, loss=9.63]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  72%|███████▏  | 144/200 [1:07:46<26:03, 27.93s/it, loss=9.75]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.98
+(T):  72%|███████▎  | 145/200 [1:08:14<25:33, 27.89s/it, loss=9.72]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.93; Test Accuracy:0.96
+(T):  73%|███████▎  | 146/200 [1:08:41<25:05, 27.87s/it, loss=9.68]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.93; Test Accuracy:0.97
+(T):  74%|███████▎  | 147/200 [1:09:10<24:54, 28.20s/it, loss=9.68]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.94; Test Accuracy:0.97
+(T):  74%|███████▍  | 148/200 [1:09:38<24:21, 28.10s/it, loss=9.47]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.94; Test Accuracy:0.97
+(T):  74%|███████▍  | 149/200 [1:10:07<24:00, 28.25s/it, loss=9.61]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  75%|███████▌  | 150/200 [1:10:34<23:22, 28.04s/it, loss=9.64]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.95; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  76%|███████▌  | 151/200 [1:11:02<22:41, 27.79s/it, loss=9.55]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.95; Test Accuracy:0.96
+(T):  76%|███████▌  | 152/200 [1:11:29<22:10, 27.72s/it, loss=10]  Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.96; Test Accuracy:0.94
+(T):  76%|███████▋  | 153/200 [1:11:56<21:36, 27.59s/it, loss=9.41]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.93; Test Accuracy:0.93
+(T):  77%|███████▋  | 154/200 [1:12:24<21:06, 27.52s/it, loss=9.44]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.92; Test Accuracy:0.93
+(T):  78%|███████▊  | 155/200 [1:12:51<20:36, 27.47s/it, loss=9.64]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.92; Test Accuracy:0.96
+(T):  78%|███████▊  | 156/200 [1:13:20<20:26, 27.88s/it, loss=9.58]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.965; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  78%|███████▊  | 157/200 [1:13:48<20:03, 28.00s/it, loss=9.26]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  79%|███████▉  | 158/200 [1:14:16<19:28, 27.82s/it, loss=9.05]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.945; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  80%|███████▉  | 159/200 [1:14:43<18:56, 27.72s/it, loss=9.51]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.955; Val Accuracy:0.96; Test Accuracy:0.96
+(T):  80%|████████  | 160/200 [1:15:11<18:25, 27.63s/it, loss=9.42]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  80%|████████  | 161/200 [1:15:38<17:55, 27.57s/it, loss=9.42]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  81%|████████  | 162/200 [1:16:05<17:24, 27.49s/it, loss=9.36]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  82%|████████▏ | 163/200 [1:16:33<16:57, 27.50s/it, loss=9.76]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.97; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  82%|████████▏ | 164/200 [1:17:01<16:31, 27.55s/it, loss=9.69]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.98; Test Accuracy:0.97
+(T):  82%|████████▎ | 165/200 [1:17:28<16:08, 27.67s/it, loss=9.61]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  83%|████████▎ | 166/200 [1:17:56<15:39, 27.62s/it, loss=9.34]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.96; Test Accuracy:0.98
+(T):  84%|████████▎ | 167/200 [1:18:23<15:09, 27.57s/it, loss=9.33]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  84%|████████▍ | 168/200 [1:18:51<14:45, 27.68s/it, loss=9.73]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  84%|████████▍ | 169/200 [1:19:21<14:37, 28.31s/it, loss=9.4] Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  85%|████████▌ | 170/200 [1:19:48<13:59, 27.99s/it, loss=9.33]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  86%|████████▌ | 171/200 [1:20:16<13:30, 27.94s/it, loss=9.15]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  86%|████████▌ | 172/200 [1:20:44<13:01, 27.93s/it, loss=9.23]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  86%|████████▋ | 173/200 [1:21:12<12:31, 27.83s/it, loss=9.31]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.96; Test Accuracy:0.98
+(T):  87%|████████▋ | 174/200 [1:21:39<12:01, 27.75s/it, loss=9]   Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  88%|████████▊ | 175/200 [1:22:08<11:42, 28.10s/it, loss=9.32]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  88%|████████▊ | 176/200 [1:22:36<11:14, 28.08s/it, loss=9.01]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  88%|████████▊ | 177/200 [1:23:04<10:40, 27.86s/it, loss=9.29]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  89%|████████▉ | 178/200 [1:23:31<10:08, 27.68s/it, loss=9.13]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.97
+(T):  90%|████████▉ | 179/200 [1:23:59<09:42, 27.72s/it, loss=9.1] Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.95; Test Accuracy:0.99
+(T):  90%|█████████ | 180/200 [1:24:27<09:15, 27.78s/it, loss=8.8]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.97; Test Accuracy:0.99
+(T):  90%|█████████ | 181/200 [1:24:55<08:48, 27.83s/it, loss=8.88]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  91%|█████████ | 182/200 [1:25:22<08:18, 27.68s/it, loss=9.14]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  92%|█████████▏| 183/200 [1:25:50<07:51, 27.71s/it, loss=9]   Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.99
+(T):  92%|█████████▏| 184/200 [1:26:18<07:25, 27.83s/it, loss=9.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.98; Test Accuracy:0.98
+(T):  92%|█████████▎| 185/200 [1:26:46<06:57, 27.81s/it, loss=8.92]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  93%|█████████▎| 186/200 [1:27:13<06:29, 27.85s/it, loss=9.14]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.98; Test Accuracy:0.98
+(T):  94%|█████████▎| 187/200 [1:27:41<06:01, 27.77s/it, loss=9.05]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.99
+(T):  94%|█████████▍| 188/200 [1:28:09<05:34, 27.86s/it, loss=9.27]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.98; Test Accuracy:0.99
+(T):  94%|█████████▍| 189/200 [1:28:37<05:06, 27.87s/it, loss=8.98]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.995; Val Accuracy:0.98; Test Accuracy:0.99
+(T):  95%|█████████▌| 190/200 [1:29:05<04:37, 27.79s/it, loss=8.79]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.98; Test Accuracy:0.98
+(T):  96%|█████████▌| 191/200 [1:29:32<04:09, 27.71s/it, loss=8.76]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  96%|█████████▌| 192/200 [1:30:00<03:41, 27.68s/it, loss=9.11]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.99; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  96%|█████████▋| 193/200 [1:30:28<03:14, 27.73s/it, loss=8.96]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  97%|█████████▋| 194/200 [1:30:55<02:46, 27.69s/it, loss=9.04]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.97
+(T):  98%|█████████▊| 195/200 [1:31:23<02:18, 27.79s/it, loss=9.07]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.96; Val Accuracy:0.97; Test Accuracy:0.98
+(T):  98%|█████████▊| 196/200 [1:31:51<01:50, 27.69s/it, loss=8.77]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.985; Val Accuracy:0.96; Test Accuracy:0.97
+(T):  98%|█████████▊| 197/200 [1:32:19<01:23, 27.81s/it, loss=9.18]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:1.0; Val Accuracy:0.94; Test Accuracy:0.98
+(T):  99%|█████████▉| 198/200 [1:32:47<00:56, 28.06s/it, loss=9.1]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.96; Test Accuracy:0.98
+(T): 100%|█████████▉| 199/200 [1:33:15<00:27, 27.86s/it, loss=9.12]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.975; Val Accuracy:0.96; Test Accuracy:0.98
+(T): 100%|██████████| 200/200 [1:33:43<00:00, 27.82s/it, loss=9.25]Fitting 10 folds for each of 21 candidates, totalling 210 fits
+Train Accuracy:0.98; Val Accuracy:0.97; Test Accuracy:0.97
+(T): 100%|██████████| 200/200 [1:33:47<00:00, 28.14s/it, loss=9.25]

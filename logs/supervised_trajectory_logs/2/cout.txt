@@ -1,0 +1,21 @@
+(T):   0%|          | 0/150 [00:00<?, ?it/s]/Users/alexandermollers/Documents/GitHub/hodge_simpcl/src/experiments/baselines/simp_nets/supervised_simp.py:120: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1682343673238/work/aten/src/ATen/SparseCsrTensorImpl.cpp:56.)
+  L1_lower = torch.transpose(B1, 0, 1).mm(B1)
+(T):   1%|          | 1/150 [00:05<13:47,  5.55s/it, loss=2.61]Epoch Loss: 2.6149; Train Acc: 53.0000; Val Acc: 44.0000; Test Acc: 61.0000 for epoch 0
+(T):   1%|▏         | 2/150 [00:14<18:20,  7.44s/it, loss=2.19]Epoch Loss: 2.1931; Train Acc: 69.0000; Val Acc: 71.0000; Test Acc: 59.0000 for epoch 1
+(T):   2%|▏         | 3/150 [00:23<20:13,  8.26s/it, loss=1.97]Epoch Loss: 1.9734; Train Acc: 59.0000; Val Acc: 64.0000; Test Acc: 53.0000 for epoch 2
+(T):   3%|▎         | 4/150 [00:32<21:01,  8.64s/it, loss=1.81]Epoch Loss: 1.8134; Train Acc: 53.0000; Val Acc: 62.0000; Test Acc: 51.0000 for epoch 3
+(T):   3%|▎         | 5/150 [00:43<22:41,  9.39s/it, loss=1.63]Epoch Loss: 1.6349; Train Acc: 72.0000; Val Acc: 75.0000; Test Acc: 64.0000 for epoch 4
+(T):   4%|▍         | 6/150 [00:54<23:33,  9.82s/it, loss=1.48]Epoch Loss: 1.4847; Train Acc: 85.0000; Val Acc: 88.0000; Test Acc: 77.0000 for epoch 5
+(T):   5%|▍         | 7/150 [01:03<23:21,  9.80s/it, loss=1.36]Epoch Loss: 1.3627; Train Acc: 92.0000; Val Acc: 87.0000; Test Acc: 86.0000 for epoch 6
+(T):   5%|▌         | 8/150 [01:13<23:18,  9.85s/it, loss=1.23]Epoch Loss: 1.2293; Train Acc: 92.5000; Val Acc: 86.0000; Test Acc: 87.0000 for epoch 7
+(T):   6%|▌         | 9/150 [01:23<22:44,  9.68s/it, loss=1.14]Epoch Loss: 1.1423; Train Acc: 86.0000; Val Acc: 81.0000; Test Acc: 79.0000 for epoch 8
+(T):   7%|▋         | 10/150 [01:33<23:18,  9.99s/it, loss=1.07]Epoch Loss: 1.0664; Train Acc: 93.5000; Val Acc: 90.0000; Test Acc: 85.0000 for epoch 9
+(T):   7%|▋         | 11/150 [01:42<22:21,  9.65s/it, loss=1.01]Epoch Loss: 1.0051; Train Acc: 94.5000; Val Acc: 89.0000; Test Acc: 90.0000 for epoch 10
+(T):   8%|▊         | 12/150 [01:51<21:50,  9.49s/it, loss=0.915]Epoch Loss: 0.9149; Train Acc: 95.5000; Val Acc: 91.0000; Test Acc: 82.0000 for epoch 11
+(T):   9%|▊         | 13/150 [02:00<21:18,  9.33s/it, loss=0.861]Epoch Loss: 0.8609; Train Acc: 95.5000; Val Acc: 94.0000; Test Acc: 90.0000 for epoch 12
+(T):   9%|▉         | 14/150 [02:09<20:27,  9.03s/it, loss=0.803]Epoch Loss: 0.8034; Train Acc: 96.0000; Val Acc: 91.0000; Test Acc: 89.0000 for epoch 13
+(T):  10%|█         | 15/150 [02:18<20:41,  9.20s/it, loss=0.751]Epoch Loss: 0.7514; Train Acc: 95.0000; Val Acc: 94.0000; Test Acc: 90.0000 for epoch 14
+(T):  11%|█         | 16/150 [02:28<20:38,  9.24s/it, loss=0.712]Epoch Loss: 0.7123; Train Acc: 97.0000; Val Acc: 94.0000; Test Acc: 90.0000 for epoch 15
+(T):  11%|█▏        | 17/150 [02:37<20:38,  9.31s/it, loss=0.673]Epoch Loss: 0.6731; Train Acc: 97.0000; Val Acc: 92.0000; Test Acc: 89.0000 for epoch 16
+(T):  12%|█▏        | 18/150 [02:46<20:33,  9.35s/it, loss=0.639]Epoch Loss: 0.6388; Train Acc: 97.0000; Val Acc: 92.0000; Test Acc: 91.0000 for epoch 17
+(T):  13%|█▎        | 19/150 [02:55<20:06,  9.21s/it, loss=0.609]
